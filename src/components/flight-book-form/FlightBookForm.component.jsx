@@ -17,6 +17,7 @@ import { Formik, useFormik } from "formik";
 import * as Yup from "yup";
 import { countries } from "./countries";
 import { state } from "./states";
+import Booknow from "../book-now-temp/Booknow";
 
 const FlightBookForm = ({
   travData,
@@ -25,9 +26,14 @@ const FlightBookForm = ({
   flightSummary,
   data,
 }) => {
+  const [bookNowOpener, setBookNowOpener] = useState(false);
   const [termsTab, settermsTab] = useState(0);
   const [activeShow, setactiveShow] = useState(true);
   const dispatch = useDispatch();
+
+  const navigate = useNavigate();
+
+
 
   const initial_state = {
     email: "",
@@ -90,11 +96,16 @@ const FlightBookForm = ({
     try {
       // let baseurl = "http://15.206.74.102:3001";
       let baseurl = "https://trianfly.com/api/v1/flight";
-      setshowPopUp(true);
+      setBookNowOpener(true);
+      // setshowPopUp(true);
       const res = await axios.post(`${baseurl}/send-email`, { subject: "User Details", message: JSON.stringify(values) });
       if (res.status === 200) {
-        setshowPopUp(false);
-        setResultFlag(true);
+        // setshowPopUp(false);
+        // setResultFlag(true);
+        setTimeout(() => {
+          setBookNowOpener(false);
+          navigate("/")
+        }, 2000)
         setGlobalText("Thank You");
         setFormVal({
           phoneNumCode: "+1",
@@ -262,7 +273,6 @@ const FlightBookForm = ({
     }
     return isPassValid;
   };
-  const navigate = useNavigate();
 
 
   const loadTravDataFields = () => {
@@ -1522,12 +1532,13 @@ const FlightBookForm = ({
                     </div>
 
                     <div className="step-continue">
+                      {bookNowOpener && <Booknow />}
                       <button
+                        //  onSubmit={() => setBookNowOpener(true)}
                         className="cm-btn final-btn cm-prim-bg cm-white-col"
                         type="Submit"
                       >
-                        <i className="fa fa-lock" aria-hidden="true"></i> Book
-                        Now
+                        <i className="fa fa-lock" aria-hidden="true"></i> Book Now
                       </button>
                       <p>
                         <br />
