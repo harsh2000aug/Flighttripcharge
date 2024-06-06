@@ -25,13 +25,9 @@ const AboutPage = () => {
           <div className="cm-page-center cm-flex-type-1">
             <div className="cm-left-col">
               <h2 className="cm-section-h">
-                Grab On the Best Flight Deals and Embark On Your Journey with Flighttripcharge.com  </h2>
+                Avail the advantage of the best flight deals and start your journey with Flighttripcharge.com. </h2>
               <p className="cm-section-sp">
-                Flighttripcharge.com is your one-stop platform to explore competitive
-                airfares and great discount deals on online flight booking across
-                all major destinations in the USA, UK, and Canada. As a thriving
-                booking platform, we endeavor to eliminate every challenge that
-                comes your way while browsing flight schedules online.
+                At Flighttripcharge, we turn your travel dreams into reality with unbeatable deals and seamless booking experiences. We make every journey affordable and hassle-free across all major destinations in the USA, UK, and Canada.
               </p>
               {/* <ul>
               <li>
@@ -79,23 +75,22 @@ const AboutPage = () => {
             <div className="cm-wd-25">
               <i className="fa-solid fa-tag"></i>
               <h4>Promising Deals</h4>
-              <p>We strive to make online booking hassle-free for our customers
-                across USA, UK, and Canada.</p>
+              <p>At Flighttripcharge.com, we strive to make online booking a breeze for our valued clients across the United States, the United Kingdom, and Canada.</p>
             </div>
             <div className="cm-wd-25">
               <i className="fa-solid fa-circle-check"></i>
               <h4>Redefined Experience</h4>
-              <p>Our team at Flighttripcharge.com focuses on improving the travel experience with impeccable flight deals.</p>
+              <p>The team at Flighttripcharge.com is dedicated to improving the travel experience by providing exceptional airline deals.</p>
             </div>
             <div className="cm-wd-25">
               <i className="fa-solid fa-heart"></i>
               <h4>All-Embracing Offerings</h4>
-              <p>Our team at Flighttripcharge.com focuses on improving the travel experience with impeccable flight deals.</p>
+              <p>We provide exclusive flight deals, last-minute offers, and unbeatable discounts to top destinations worldwide.</p>
             </div>
             <div className="cm-wd-25">
               <i className="fa-solid fa-clock"></i>
               <h4>Ceaseless Support</h4>
-              <p>Need assistance while booking budget-friendly flights online? Our support team is here to help!</p>
+              <p>Need help booking affordable flights online? Our customer support team is available to assist round the clock.</p>
             </div>
           </div>
         </div>
@@ -111,22 +106,13 @@ const AboutPage = () => {
             </div>
             <div className="cm-right-col">
               <h2 className="cm-section-h">
-                Fuss-Free Flight Booking to Have Something to Look Back On
+                Effortless Flight Booking for Memorable Experiences
               </h2>
               <p>
-                Be it an important business meeting, a family occasion, or a
-                much-needed break from work; travel is an immovable aspect of our
-                lives. As a well-established travel service provider, we are
-                familiar with the recurring challenges people face while planning
-                their trips.
+                Travel is an unavoidable part of our lives, whether it's for an essential business meeting, a family vacation, or a much-needed getaway from work. As a well-established travel service company, we are aware with the many issues customers confront when planning their trips.
               </p>
               <p>
-                Providing great deals and discounts on flight tickets is our way
-                to alleviate your online flight booking experience. We believe
-                that cost-efficient travel planning is the first step to a trip
-                you would want to reminisce about later in your life. Therefore we
-                make sure that you get to find the best flights in your budget and
-                your preferred timeline.
+                Offering great deals and discounts on flight tickets, we aim to enhance your online booking experience. We believe cost-efficient travel planning is the key to memorable trips. That's why we ensure you find the best flights within your budget and preferred timeline.
               </p>
             </div>
           </div>

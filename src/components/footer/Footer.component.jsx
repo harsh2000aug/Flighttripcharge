@@ -33,7 +33,7 @@ const Footer = () => {
         <div class="cm-flex">
           <div class="col-25">
             <img src={require("../../assets/images/new/logo.png")} alt="" />
-            <p>Flighttripcharge is your one-stop platform to explore competitive airfares and great discount deals on online flight booking across all major destinations in the USA, UK, and Canada. As a thriving booking platform, we endeavor to eliminate every challenge that comes your way while browsing flight schedules online.</p>
+            <p>Flighttripcharge is your one-stop platform for competitive airfares and great discount deals on flights to major destinations in the USA, UK, and Canada. We strive to eliminate browsing challenges and ensure a seamless flight booking experience with 24/7 customer support and exclusive offers for all travelers.</p>
           </div>
           <div class="col-25 lpad">
             <h3>Quick Links</h3>

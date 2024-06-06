@@ -41,6 +41,10 @@ h5 {
   margin-bottom: 10px;
 }
 
+p {
+  font-size: 18px;
+}
+
 li {
   list-style: none;
 }
@@ -304,7 +308,7 @@ nav {
   }
 
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .common-text {

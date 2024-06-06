@@ -10,16 +10,6 @@ import { Helmet } from "react-helmet";
 import PopupPage from "../popup-deals/Popuppage";
 import axios from "axios";
 import { theme_airline_url } from "../../utils/apiInfo";
-import Delta from "../../assets/images/new/delta.png"
-import Alaska from "../../assets/images/new/alaska.png"
-import United from "../../assets/images/new/united.png"
-import Jetblue from "../../assets/images/new/jetblue.png"
-import Volaris from "../../assets/images/new/volaris.png"
-import Southwest from "../../assets/images/new/southwest.png"
-import Person1 from "../../assets/images/new/person1.jpg"
-import Person2 from "../../assets/images/new/person2.jpg"
-import Person3 from "../../assets/images/new/person3.jpg"
-import Person4 from "../../assets/images/new/person4.jpg"
 import BestTour from "../../components/BestTours/BestTour";
 import BestTourAu from "../../components/BestTours/BestTourAu";
 import BestTourCa from "../../components/BestTours/BestTourCa";
@@ -157,8 +147,8 @@ const HomePage = () => {
       <section className="gap head-section">
         <div className="container">
           <div className="hero-text">
-            <h1>Unlock your wanderlust and soar to new heights</h1>
-            <p>From booking to managing, we are here to oblige & make your journey as smooth and enjoyable as possible. With our fully cm-flexible rates, you can readily reserve, amend, or cancel any aspect of your trip in a matter of minutes!</p>
+            <h1>Flighttripcharge: Book Flights with Unbeatable Deals and Endless Destinations!</h1>
+            <p>Welcome to Flighttripcharge, your ultimate gateway to exploring the world with the best flight deals and seamless booking experience.</p>
           </div>
           <div className="booking-form">
             <FlightSearchForm />
@@ -179,7 +169,7 @@ const HomePage = () => {
               </div>
               <div class="col-50 text">
                 <h3>Affordable Flight Bookings</h3>
-                <p>Looking for a last-minute cheapest flight deal or the best return flights? To help you with the cheapest airfare, we consider low-cost air carriers you can do great savings on airline tickets.</p>
+                <p>Searching for the best return flights or the cheapest tickets at the last minute? We take into account low-cost airlines so that you may save a significant amount of money on flight tickets.</p>
               </div>
             </div>
             <div class="services col-50  cm-flex">
@@ -188,7 +178,7 @@ const HomePage = () => {
               </div>
               <div class="col-50 text">
                 <h3>Flight Change with Best Deals</h3>
-                <p>Enjoy great savings on flight changes with the lowest airfares. By comparing flight rescheduling deals on hundreds of airline tickets, you can change your existing flight and get the price difference back into your account.</p>
+                <p>Compare flight rescheduling offers on hundreds of airline tickets to get the best deals on flight changes and save money. By modifying your current travel plan, you can receive the price difference back into your account.</p>
               </div>
             </div>
             <div class="services col-50  cm-flex">
@@ -197,7 +187,7 @@ const HomePage = () => {
               </div>
               <div class="col-50 text">
                 <h3>Flight Cancellation with Full Refund</h3>
-                <p>Do you need to cancel your flight but are concerned about losing money? As per air carrier policies, you are entitled to get your money back regardless of the type and className of your airfare.</p>
+                <p>Do you have to postpone your trip but are worried about the cancellation charges? According to airline regulations, you have the right to a refund regardless of the kind and class of ticket you purchased.</p>
               </div>
             </div>
             <div class="services col-50  cm-flex">
@@ -206,7 +196,7 @@ const HomePage = () => {
               </div>
               <div class="col-50 text">
                 <h3>Alter the Incorrect Name on The Ticket</h3>
-                <p>It is viable to alter the misspelt name on your flight ticket already issued with the quick assistance of our travel representatives.</p>
+                <p>With our travel professionals' prompt assistance, you can swiftly correct the misspelled name on your previously issued airline ticket.</p>
               </div>
             </div>
           </div>
@@ -273,7 +263,7 @@ const HomePage = () => {
 
       <section className="gap">
         <div className="container">
-          <div className="flex">
+          <div className="flex space-bw">
             <div className="col-50">
               <div class="service-text">
                 <h2>Why Choose Us</h2>
@@ -318,7 +308,7 @@ const HomePage = () => {
                       <i class="fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-solid fa-star" aria-hidden="true"></i>
                     </div>
-                    <p>FlightTripCharge made booking my recent trip a breeze! The website's user-friendly interface allowed me to quickly search for flights, compare prices, and select the best options for my travel needs. I appreciated the transparent pricing and the ability to customize my itinerary easily. The booking process was efficient, and I received my e-tickets promptly. I'll definitely be using FlightTripCharge for my future travel plans. Highly recommended!</p>
+                    <p>Flighttripcharge exceeded my expectations with its fantastic deals and efficient booking process. I booked a flight to Miami and saved a lot compared to other sites. I highly recommend it for anyone looking to save on airfare. I'll definitely be using FlightTripCharge for my future travel plans.</p>
                     <h3>Emily Johnson</h3>
                   </div>
                   <div className="tst-slide">
@@ -332,7 +322,7 @@ const HomePage = () => {
                       <i class="fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-solid fa-star" aria-hidden="true"></i>
                     </div>
-                    <p>I've been using FlightTripCharge for quite some time now, and I've always been impressed with their competitive flight prices. Recently, I encountered a minor issue with my booking, but their customer support team was incredibly responsive and resolved it swiftly. The website offers a wide range of flight options, and the filters make it easy to find the perfect flight for your budget and schedule. The only reason I didn't give it a full 5 stars is that I wish they had a more extensive selection of international airlines. Nevertheless, it's still my go-to platform for domestic travel.</p>
+                    <p>I've been using FlightTripCharge for several months now, and I've always been delighted with their affordable flight prices. I just had a small difficulty with my booking, but their customer service team was quite attentive and addressed it quickly.  The entire procedure went well, and the customer service was quite helpful.</p>
                     <h3>Alejandro Hernandez</h3>
                   </div>
                   <div className="tst-slide">
@@ -346,7 +336,7 @@ const HomePage = () => {
                       <i class="fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-solid fa-star" aria-hidden="true"></i>
                     </div>
-                    <p>FlightTripCharge is my trusted companion for booking flights. The website's reliability and convenience are second to none. It's become my one-stop-shop for all things related to air travel. I appreciate the real-time updates on flight availability and prices, which have saved me money on several occasions. The booking process is straightforward, and I love the option to store my frequent flyer details for a seamless experience. Whether I'm planning a last-minute getaway or a well-organized trip, FlightTripCharge has never let me down. I highly recommend it to fellow travelers!</p>
+                    <p>I recently booked a flight to New York using Flighttripcharge and was impressed by their fantastic discounts. The entire booking process was smooth and quick, and I appreciated their 24/7 customer support, which was very reassuring. This is definitely my new go-to site for flight bookings.</p>
                     <h3>Svetlana Petrovich</h3>
                   </div>
                 </Slider>
